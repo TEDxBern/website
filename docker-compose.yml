@@ -2,7 +2,7 @@ version: '2.3'
 
 x-lagoon-project:
   # Lagoon project name (leave `&lagoon-project` when you edit this)
-  &lagoon-project wordpress-example
+  &lagoon-project tedxbern_com
 
 x-volumes:
   &default-volumes
@@ -83,18 +83,6 @@ services:
     environment:
       << : *default-environment
 
-  varnish:
-    image: amazeeio/varnish
-    labels:
-      lagoon.type: varnish
-    links:
-      - nginx # links varnish to the nginx in this docker-compose project, or it would try to connect to any nginx running in docker
-    environment:
-      << : *default-environment
-      LAGOON_LOCALDEV_URL: wordpress-varnish.docker.amazee.io # generate another route for varnish
-    networks:
-      - amazeeio-network
-      - default
 
 networks:
   amazeeio-network:
