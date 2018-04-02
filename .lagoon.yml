@@ -10,13 +10,8 @@ tasks:
         name: env variables
         command: env
         service: cli
-    - run:
-        name: install wordpress if not installed
-        command: |
-          if ! $(cd web && wp core is-installed); then
-            cd web && wp core install --url=$LAGOON_ROUTE --title=$HOSTNAME --admin_user=admin --admin_email=admin@example.com --skip-email
-          fi
-        service: cli
+
+
 environments:
   master:
     cronjobs:
