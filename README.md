@@ -10,6 +10,16 @@ On OSX - Install the Local Environment first: http://lagoon.readthedocs.io/en/la
 
 visit http://wordpress-nginx.docker.amazee.io
 
+## Installing plugins/themes
+All plugins and themes come from https://wpackagist.org/
+
+> composer require wpackagist-theme/twentyseveneen
+
+## Connect to the envs
+Make sure your ssh key is loaded `ssh-add -L` should show it
+
+> ssh tedxbern-com-develop@api-lagoon-master.lagoon.ch.amazee.io -p 31472 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
+
 ## Deployed Branches
 
 - Master - Production Site
