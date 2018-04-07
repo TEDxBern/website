@@ -88,7 +88,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 
-define('AUTOPTIMIZE_CACHE_CHILD_DIR','uploads/cache/autoptimize/');
+define('AUTOPTIMIZE_CACHE_CHILD_DIR','/uploads/cache/autoptimize/');
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );
