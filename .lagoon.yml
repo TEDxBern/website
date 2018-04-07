@@ -4,18 +4,23 @@ project: tedxbern
 endpoint: api-lagoon-master.lagoon.ch.amazee.io:31472
 api: api-lagoon-master.lagoon.ch.amazee.io:80
 
-tasks:
-  post-rollout:
-    - run:
-        name: env variables
-        command: env
-        service: cli
-
+# tasks:
+#   post-rollout:
+#     - run:
+#         name: env variables
+#         command: env
+#         service: cli
 
 environments:
   master:
     cronjobs:
       - name: cronjob
-        schedule: "*/15 * * * *"
+        schedule: "0 * * * *"
+        command: cd web && wp cron event run --due-now
+        service: cli
+  develop:
+    cronjobs:
+      - name: cronjob
+        schedule: "0 * * * *"
         command: cd web && wp cron event run --due-now
         service: cli
