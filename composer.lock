@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71d5fbc62a21761eb9e0fa4179dda58e",
-    "content-hash": "4a5c4af726e464f45363a5fa8a360501",
+    "hash": "ff773143e8cb85ae203f582e458625ad",
+    "content-hash": "64525f732a1abfc2713f8d05bfb63f92",
     "packages": [
         {
             "name": "composer/installers",
@@ -405,6 +405,26 @@
             "time": "2016-09-01 10:05:43"
         },
         {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
+        },
+        {
             "name": "wpackagist-plugin/export-database-littlebizzy",
             "version": "1.0.7",
             "source": {
@@ -415,7 +435,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/export-database-littlebizzy.1.0.7.zip",
-                "reference": null,
+                "reference": "tags/1.0.7",
                 "shasum": null
             },
             "require": {
