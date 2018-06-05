@@ -44,7 +44,8 @@
     "wpackagist-plugin/autoptimize": "^2.3",
     "wpackagist-plugin/polylang": "^2.3",
     "wpackagist-plugin/wp-nested-pages": "^3.0",
-    "wpackagist-plugin/advanced-custom-fields": "^5.6"
+    "wpackagist-plugin/advanced-custom-fields": "^5.6",
+    "wpackagist-plugin/gutenberg": "^3.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
