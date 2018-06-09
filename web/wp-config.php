@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         getenv('AUTH_KEY') );
+define( 'SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY') );
+define( 'LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY') );
+define( 'NONCE_KEY',        getenv('NONCE_KEY') );
+define( 'AUTH_SALT',        getenv('AUTH_SALT') );
+define( 'SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT') );
+define( 'LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT') );
+define( 'NONCE_SALT',       getenv('NONCE_SALT') );
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'tedxbern_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -87,6 +87,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/content' );
 define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
+
+define('AUTOPTIMIZE_CACHE_CHILD_DIR','/uploads/cache/autoptimize/');
 
 /** Sets up WordPress vars and included files. */
 require_once( ABSPATH . 'wp-settings.php' );

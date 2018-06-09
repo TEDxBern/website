@@ -1,6 +1,26 @@
-# WordPress Composer Fork
+# TEDxBern Website
 
-If you're looking for more information on using composer and WordPress together, go check out http://composer.rarst.net
+## Develop Locally
 
-If you're looking for WordPress core, the core package is now at https://github.com/johnpbloch/wordpress-core
+On OSX - Install the Local Environment first: http://lagoon.readthedocs.io/en/latest/using_lagoon/local_development_environments/
 
+> composer install
+> docker-compose build
+> docker-compose up -d
+
+visit http://wordpress-nginx.docker.amazee.io
+
+## Installing plugins/themes
+All plugins and themes come from https://wpackagist.org/
+
+> composer require wpackagist-theme/twentyseveneen
+
+## Connect to the envs
+Make sure your ssh key is loaded `ssh-add -L` should show it
+
+> ssh tedxbern-com-develop@api-lagoon-master.lagoon.ch.amazee.io -p 31472 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
+
+## Deployed Branches
+
+- Master - Production Site
+- Develop - Development Site
