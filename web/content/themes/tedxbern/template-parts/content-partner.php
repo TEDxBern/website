@@ -22,6 +22,12 @@
         <?php
         get_template_part( 'template-parts/partner' );
 		?>
+
+        <?php
+        $additional_content = get_field('additional_content');
+
+        echo $additional_content;
+        ?>
 	</div><!-- .entry-content -->
 
 	

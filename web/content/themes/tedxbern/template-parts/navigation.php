@@ -10,7 +10,7 @@
 	<div class="nav-drawer">
 		<div class="navigation-tools">
 			<?php if ( defined( 'POLYLANG_VERSION' ) ): 
-		 		if(count(pll_languages_list()) > 1): ?>
+		 		if((count(pll_languages_list()) > 1) && get_option( 'multilang' ) == 1): ?>
 					<ul class="multilang-dropdown">
                         <li><a href=""><?php echo pll_current_language(); ?></a>
                             <span class="dropdown-container">

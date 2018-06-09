@@ -206,6 +206,40 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 			),
 		),
 		'menu_order' => 0,
+    ));
+    
+    register_field_group(array (
+		'id' => 'acf_additional-content',
+		'title' => 'Additional Content',
+		'fields' => array (
+			array (
+				'key' => 'field_5b17e457637a3',
+				'label' => 'Additional Content',
+				'name' => 'additional_content',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page_template',
+					'operator' => '==',
+					'value' => 'page-partner.php',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
 	));
 }
 
@@ -217,3 +251,40 @@ function register_strings() {
     pll_register_string('tedxbern', 'E-Mail Adresse');
   }
   add_action('init','register_strings');
+ 
+/* Admin init */
+add_action( 'admin_init', 'multilang_init' );
+ 
+/* Settings Init */
+function multilang_init(){
+ 
+    /* Register Settings */
+    register_setting(
+        'reading',             // Options group
+        'multilang',      // Option name/database
+        'multilang_sanitize' // sanitize callback function
+    );
+
+ 
+    /* Create settings field */
+    add_settings_field(
+        'multilang-field-id',       // Field ID
+        'Multilang Dropdown',       // Field title 
+        'multilang_field_callback', // Field callback function
+        'reading'                   // Settings page slug
+    );
+}
+ 
+/* Sanitize Callback Function */
+function multilang_sanitize( $input ){
+    return isset( $input ) ? true : false;
+}
+ 
+/* Settings Field Callback */
+function multilang_field_callback(){
+    ?>
+    <label for="multilag-check">
+        <input id="multilag-check" type="checkbox" value="1" name="multilang" <?php checked( get_option( 'multilang', true ) ); ?>> "Multilang dropdown"
+    </label>
+    <?php
+}
