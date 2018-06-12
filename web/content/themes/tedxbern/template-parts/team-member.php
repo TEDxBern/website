@@ -6,7 +6,7 @@
             
     while ( $loop->have_posts() ) : $loop->the_post();
 
-        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
         $member_contact = get_field('member_contact');
         $job_position = get_field('job_position');
         $orientation;
