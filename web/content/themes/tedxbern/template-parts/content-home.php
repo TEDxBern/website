@@ -11,19 +11,19 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<div class="entry-content">
+    <div class="entry-content">
 
-       
+
         <div class="card-container">
-        
+
             <?php
                 //   the_content();
 
             $loop = new WP_Query( array( 'post_type' => 'post', 'orderby'   => 'menu_order', 'order' => 'ASC', 'numberposts' => -1, ) );
-                    
+
             while ( $loop->have_posts() ) : $loop->the_post();
 
-                $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+                $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' );
                 $link = get_field('external_link');
                 $button_text = get_field('button_text');
 
@@ -74,7 +74,7 @@
                 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
             </div>
         </div>
-	</div><!-- .entry-content -->
+    </div><!-- .entry-content -->
 
-	
+
 </article><!-- #post-<?php the_ID(); ?> -->
