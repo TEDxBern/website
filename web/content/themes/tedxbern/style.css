@@ -1117,11 +1117,15 @@ object {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: auto;
-        height: 100%;
         max-width: none;
         min-width: 100%;
         min-height: 100%; }
+        .member-container .member .image-container img.landscape {
+          width: auto;
+          height: 100%; }
+        .member-container .member .image-container img.portrait {
+          width: 100%;
+          height: auto; }
     .member-container .member a {
       position: absolute;
       top: 0;

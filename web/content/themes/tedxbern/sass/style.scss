@@ -722,11 +722,19 @@ $img-brand-float: left;
 				position: absolute;
 				top: 50%;
 				left: 50%;
-				width: auto;
-				height: 100%;
 				max-width: none;
 				min-width: 100%;
-				min-height: 100%;
+                min-height: 100%;
+                
+                &.landscape {
+                    width: auto;
+				    height: 100%;
+                }
+
+                &.portrait {
+                    width: 100%;
+				    height: auto;
+                }
 			}
         }
 

@@ -9,12 +9,22 @@
         $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
         $member_contact = get_field('member_contact');
         $job_position = get_field('job_position');
+        $orientation;
+
+        list($width, $height) = getimagesize($image[0]);
+			if ($width === $height || $width > $height) {
+	    		// Landscape
+				$orientation = 'landscape';
+			} else {
+	    		// Portrait or Square
+				$orientation = 'portrait';
+			}
 
     ?>
 
     <div class="member">
         <div class="image-container">
-            <img src="<?php echo $image[0]; ?>" alt="">
+            <img class="<?php echo $orientation; ?>" src="<?php echo $image[0]; ?>" alt="">
         </div>
         <div class="member-content">
             <h3>
