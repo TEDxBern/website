@@ -1117,11 +1117,15 @@ object {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: auto;
-        height: 100%;
         max-width: none;
         min-width: 100%;
         min-height: 100%; }
+        .member-container .member .image-container img.landscape {
+          width: auto;
+          height: 100%; }
+        .member-container .member .image-container img.portrait {
+          width: 100%;
+          height: auto; }
     .member-container .member a {
       position: absolute;
       top: 0;
@@ -1136,7 +1140,6 @@ nav ol {
   list-style-image: none; }
 
 .header-bar {
-  top: 0;
   left: 0;
   z-index: 12;
   width: 100%;
