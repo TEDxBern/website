@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d91a9c6b4959b2d27f6f67e82946df7",
+    "content-hash": "4b1a04b9aebaf6a6805a930ed4901e72",
     "packages": [
         {
             "name": "composer/installers",
@@ -542,6 +542,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/resmushit-image-optimizer",
+            "version": "0.1.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/resmushit-image-optimizer/",
+                "reference": "tags/0.1.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/resmushit-image-optimizer.0.1.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/resmushit-image-optimizer/"
         },
         {
             "name": "wpackagist-plugin/wp-nested-pages",
