@@ -99,7 +99,7 @@ while ( $loop->have_posts() ) : $loop->the_post();
 ?>
 
 <div class="partner">
-        <a href="http://<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+    <a href="<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>"></a>
 </div>
 
 <?php
