@@ -3,7 +3,7 @@
     <?php
 
     $loop = new WP_Query( array( 'post_type' => 'team_members', 'orderby'   => 'menu_order', 'order' => 'ASC', 'numberposts'	=> -1, ) );
-            
+
     while ( $loop->have_posts() ) : $loop->the_post();
 
         $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'medium' );
@@ -12,13 +12,13 @@
         $orientation;
 
         list($width, $height) = getimagesize($image[0]);
-			if ($width === $height || $width > $height) {
-	    		// Landscape
-				$orientation = 'landscape';
-			} else {
-	    		// Portrait or Square
-				$orientation = 'portrait';
-			}
+            if ($width === $height || $width > $height) {
+                // Landscape
+                $orientation = 'landscape';
+            } else {
+                // Portrait or Square
+                $orientation = 'portrait';
+            }
 
     ?>
 
@@ -36,7 +36,7 @@
                     </svg>
                 </a>
             </h3>
-            <span><?php echo $job_position; ?></span> 
+            <span><?php echo $job_position; ?></span>
             <p><?php the_content(); ?></p>
         </div>
     </div>
