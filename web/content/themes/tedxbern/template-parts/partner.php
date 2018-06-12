@@ -14,10 +14,10 @@
     );
     // query
     $loop = new WP_Query( $args );
-            
+
     while ( $loop->have_posts() ) : $loop->the_post();
 
-        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+        $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-big' );
         $partner_link = get_field('partner_link');
 
     ?>
@@ -52,10 +52,10 @@ $args2 = array(
 );
 // query
 $loop = new WP_Query( $args2 );
-        
+
 while ( $loop->have_posts() ) : $loop->the_post();
 
-    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'parner-small' );
     $partner_link = get_field('partner_link');
 
 ?>
@@ -90,10 +90,10 @@ $args3 = array(
 );
 // query
 $loop = new WP_Query( $args3 );
-        
+
 while ( $loop->have_posts() ) : $loop->the_post();
 
-    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-small' );
     $partner_link = get_field('partner_link');
 
 ?>

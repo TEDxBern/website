@@ -40,7 +40,11 @@ if ( ! function_exists( 'tedxbern_setup' ) ) :
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
-		add_theme_support( 'post-thumbnails' );
+        add_theme_support( 'post-thumbnails' );
+
+        // Support for custom image size for partners
+        add_image_size( 'partner-big', 400, 400, false );
+        add_image_size( 'partner-small', 150, 150, false );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
