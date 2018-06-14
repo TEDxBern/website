@@ -109,3 +109,39 @@ endwhile; wp_reset_query();
 ?>
 
 </div>
+
+<h2>Friends</h2>
+<div class="partner-container">
+
+<?php
+
+// args
+$args4 = array(
+    'numberposts'	=> -1,
+    'post_type'		=> 'partners',
+    'meta_key'		=> 'partner_type',
+    'meta_value'	=> 'friends',
+    'orderby'   => 'menu_order',
+    'order' => 'ASC'
+);
+// query
+$loop = new WP_Query( $args4 );
+        
+while ( $loop->have_posts() ) : $loop->the_post();
+
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+    $partner_link = get_field('partner_link');
+
+?>
+
+<div class="partner friends">
+        <a href="http://<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+</div>
+
+<?php
+
+endwhile; wp_reset_query();
+
+?>
+
+</div>

@@ -122,7 +122,9 @@ add_action( 'widgets_init', 'tedxbern_widgets_init' );
 function tedxbern_scripts() {
 	wp_enqueue_style( 'tedxbern-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'tedxbern-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
+    wp_enqueue_script( 'tedxbern-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
+    
+    wp_enqueue_script( 'tedxbern-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '20151215', true );
 
 	wp_enqueue_script( 'tedxbern-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
