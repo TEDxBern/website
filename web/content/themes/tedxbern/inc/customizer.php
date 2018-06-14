@@ -61,6 +61,16 @@ function tedxbern_customize_register( $wp_customize ) {
         'settings'   => 'social_instagram',
         'type'     => 'text',
     ) );
+
+    // linkedin
+   $wp_customize->add_setting( 'social_linkedin');
+
+   $wp_customize->add_control( 'social_linkedin', array(
+       'label'        => __( 'LinkedIn', 'tedx' ),
+       'section'    => 'tedx_social_section',
+       'settings'   => 'social_linkedin',
+       'type'     => 'text',
+   ) );
 }
 add_action( 'customize_register', 'tedxbern_customize_register' );
 

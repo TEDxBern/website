@@ -106,7 +106,8 @@ if(function_exists("register_field_group"))
 				'choices' => array (
 					'presenting' => 'Presenting Partner',
 					'main' => 'Main Partner',
-					'partner' => 'Partner',
+                    'partner' => 'Partner',
+                    'friends' => 'Friends',
 				),
 				'other_choice' => 0,
 				'save_other_choice' => 0,
