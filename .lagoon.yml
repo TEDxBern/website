@@ -18,6 +18,9 @@ environments:
         schedule: "0 * * * *"
         command: cd web && wp cron event run --due-now
         service: cli
+    routes:
+      - nginx:
+        - preview.tedxbern.com
   develop:
     cronjobs:
       - name: cronjob
