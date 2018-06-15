@@ -23,7 +23,7 @@
     ?>
 
     <div class="partner presenting-partner">
-            <a href="http://<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+            <a href="<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
             <p><?php the_content(); ?></p>
     </div>
 
@@ -55,13 +55,13 @@ $loop = new WP_Query( $args2 );
 
 while ( $loop->have_posts() ) : $loop->the_post();
 
-    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-small' );
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-big' );
     $partner_link = get_field('partner_link');
 
 ?>
 
 <div class="partner main-partner">
-        <a href="http://<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+        <a href="<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
 
 </div>
 
@@ -99,7 +99,43 @@ while ( $loop->have_posts() ) : $loop->the_post();
 ?>
 
 <div class="partner">
-        <a href="http://<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
+    <a href="<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>"></a>
+</div>
+
+<?php
+
+endwhile; wp_reset_query();
+
+?>
+
+</div>
+
+<h2>Friends</h2>
+<div class="partner-container">
+
+<?php
+
+// args
+$args4 = array(
+    'numberposts'	=> -1,
+    'post_type'		=> 'partners',
+    'meta_key'		=> 'partner_type',
+    'meta_value'	=> 'friends',
+    'orderby'   => 'menu_order',
+    'order' => 'ASC'
+);
+// query
+$loop = new WP_Query( $args4 );
+
+while ( $loop->have_posts() ) : $loop->the_post();
+
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-small' );
+    $partner_link = get_field('partner_link');
+
+?>
+
+<div class="partner friends">
+        <a href="<?php echo $partner_link; ?>"><img src="<?php echo $image[0]; ?>" alt=""></a>
 </div>
 
 <?php
