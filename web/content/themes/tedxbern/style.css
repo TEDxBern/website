@@ -1461,3 +1461,6 @@ footer {
   transition: none; }
   [type=submit]:hover {
     background-color: white; }
+
+body {
+  background-color: #1b1b1b; }
