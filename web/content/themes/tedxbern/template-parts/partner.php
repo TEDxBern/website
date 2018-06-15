@@ -55,7 +55,7 @@ $loop = new WP_Query( $args2 );
 
 while ( $loop->have_posts() ) : $loop->the_post();
 
-    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-small' );
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-big' );
     $partner_link = get_field('partner_link');
 
 ?>
