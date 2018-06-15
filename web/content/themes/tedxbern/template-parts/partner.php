@@ -129,7 +129,7 @@ $loop = new WP_Query( $args4 );
         
 while ( $loop->have_posts() ) : $loop->the_post();
 
-    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'partner-small' );
     $partner_link = get_field('partner_link');
 
 ?>
