@@ -28,7 +28,7 @@
     	<div class="container">
             <?php
             $custom_logo_id = get_theme_mod( 'custom_logo' );
-            $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' ); ?>
+            $logo = wp_get_attachment_image_src( $custom_logo_id , 'medium' ); ?>
 
             <a class="brand shift" href='<?php echo site_url("/"); ?>' title='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' rel='home'><img src='<?php echo $logo[0]; ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>'></a>
 
