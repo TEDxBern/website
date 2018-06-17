@@ -128,7 +128,7 @@ function tedxbern_scripts() {
 	wp_enqueue_style( 'tedxbern-style', get_stylesheet_uri() );
 
     wp_enqueue_script( 'tedxbern-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20151215', true );
-    
+
     wp_enqueue_script( 'tedxbern-script', get_template_directory_uri() . '/js/script.js', array('jquery'), '20151215', true );
 
 	wp_enqueue_script( 'tedxbern-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -247,6 +247,94 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 			),
 		),
 		'menu_order' => 0,
+	));
+
+register_field_group(array (
+'id' => 'acf_button-text',
+'title' => 'Button Text',
+'fields' => array (
+array (
+	'key' => 'field_5af881ec3b2da',
+	'label' => 'Text',
+	'name' => 'button_text',
+	'type' => 'text',
+	'default_value' => '',
+	'placeholder' => '',
+	'prepend' => '',
+	'append' => '',
+	'formatting' => 'none',
+	'maxlength' => '',
+),
+),
+'location' => array (
+array (
+	array (
+		'param' => 'post_type',
+		'operator' => '==',
+		'value' => 'post',
+		'order_no' => 0,
+		'group_no' => 0,
+	),
+),
+),
+'options' => array (
+'position' => 'normal',
+'layout' => 'default',
+'hide_on_screen' => array (
+),
+),
+'menu_order' => 0,
+));
+register_field_group(array (
+'id' => 'acf_card-size',
+'title' => 'Card Size',
+'fields' => array (
+array (
+	'key' => 'field_5afc449b37e48',
+	'label' => 'Width',
+	'name' => 'card_width',
+	'type' => 'select',
+	'choices' => array (
+		'half' => 'half',
+		'third' => 'third',
+	),
+	'default_value' => 'half',
+	'allow_null' => 0,
+	'multiple' => 0,
+),
+array (
+	'key' => 'field_5afc44d537e49',
+	'label' => 'Height',
+	'name' => 'card_height',
+	'type' => 'select',
+	'choices' => array (
+		'full' => 'full',
+		'half' => 'half',
+	),
+	'default_value' => 'half',
+	'allow_null' => 0,
+	'multiple' => 0,
+),
+),
+'location' => array (
+array (
+	array (
+		'param' => 'post_type',
+		'operator' => '==',
+		'value' => 'post',
+		'order_no' => 0,
+		'group_no' => 0,
+	),
+),
+),
+'options' => array (
+'position' => 'side',
+'layout' => 'default',
+'hide_on_screen' => array (
+),
+),
+'menu_order' => 0,
+
 	));
 }
 
