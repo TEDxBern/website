@@ -40,12 +40,7 @@ if ( ! function_exists( 'tedxbern_setup' ) ) :
 		 *
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
-        add_theme_support( 'post-thumbnails' );
-
-        // Support for custom image size for partners
-        add_image_size( 'partner-big', 400, 400, false );
-        add_image_size( 'partner-small', 150, 150, false );
-        add_image_size( 'team', 400, 400, true );
+		add_theme_support( 'post-thumbnails' );
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
@@ -175,7 +170,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
         'primary' => __( 'Primary Menu', 'tedx' ),
         'footer' => __( 'Footer Menu', 'tedx' )
     ) );
-
+    
     if(function_exists("register_field_group"))
 {
 	register_field_group(array (
@@ -214,7 +209,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 		),
 		'menu_order' => 0,
     ));
-
+    
     register_field_group(array (
 		'id' => 'acf_additional-content',
 		'title' => 'Additional Content',
@@ -247,6 +242,93 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 			),
 		),
 		'menu_order' => 0,
+    ));
+    
+    register_field_group(array (
+		'id' => 'acf_button-text',
+		'title' => 'Button Text',
+		'fields' => array (
+			array (
+				'key' => 'field_5af881ec3b2da',
+				'label' => 'Text',
+				'name' => 'button_text',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'none',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+	register_field_group(array (
+		'id' => 'acf_card-size',
+		'title' => 'Card Size',
+		'fields' => array (
+			array (
+				'key' => 'field_5afc449b37e48',
+				'label' => 'Width',
+				'name' => 'card_width',
+				'type' => 'select',
+				'choices' => array (
+					'half' => 'half',
+					'third' => 'third',
+				),
+				'default_value' => 'half',
+				'allow_null' => 0,
+				'multiple' => 0,
+			),
+			array (
+				'key' => 'field_5afc44d537e49',
+				'label' => 'Height',
+				'name' => 'card_height',
+				'type' => 'select',
+				'choices' => array (
+					'full' => 'full',
+					'half' => 'half',
+				),
+				'default_value' => 'half',
+				'allow_null' => 0,
+				'multiple' => 0,
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'side',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
 	));
 }
 
@@ -258,13 +340,13 @@ function register_strings() {
     pll_register_string('tedxbern', 'E-Mail Adresse');
   }
   add_action('init','register_strings');
-
+ 
 /* Admin init */
 add_action( 'admin_init', 'multilang_init' );
-
+ 
 /* Settings Init */
 function multilang_init(){
-
+ 
     /* Register Settings */
     register_setting(
         'reading',             // Options group
@@ -272,21 +354,21 @@ function multilang_init(){
         'multilang_sanitize' // sanitize callback function
     );
 
-
+ 
     /* Create settings field */
     add_settings_field(
         'multilang-field-id',       // Field ID
-        'Multilang Dropdown',       // Field title
+        'Multilang Dropdown',       // Field title 
         'multilang_field_callback', // Field callback function
         'reading'                   // Settings page slug
     );
 }
-
+ 
 /* Sanitize Callback Function */
 function multilang_sanitize( $input ){
     return isset( $input ) ? true : false;
 }
-
+ 
 /* Settings Field Callback */
 function multilang_field_callback(){
     ?>

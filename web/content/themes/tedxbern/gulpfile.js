@@ -23,14 +23,8 @@ gulp.task('styles', function() {
     gulp.watch('**/**/*.php').on("change", reload);
 
     // gulp.watch("js/*.js").on("change", reload);
-
+    
     gulp.task('default',function() {
         gulp.watch('sass/**/*.scss',['styles']);
     });
-});
-
-gulp.task('build', function () {
-    gulp.src('sass/**/*.scss')
-        .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./'));
 });

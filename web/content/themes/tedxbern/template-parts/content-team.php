@@ -18,7 +18,7 @@
 
 	<div class="entry-content">
 		<?php
-
+        
         get_template_part( 'template-parts/team-member' );
 
         the_content();
@@ -26,5 +26,5 @@
 		?>
 	</div><!-- .entry-content -->
 
-
+	
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -844,11 +844,11 @@ object {
     .card-container .card.width-half {
       width: calc(50% - 4px); }
     .card-container .card.height-full {
-      height: 356px; }
+      min-height: 356px; }
     .card-container .card.width-third {
       width: calc(33.33% - 4px); }
     .card-container .card.height-half {
-      height: 176px; }
+      min-height: 176px; }
       .card-container .card.height-half .card-content {
         padding: 20px; }
       .card-container .card.height-half .card-content .btn {
@@ -861,7 +861,7 @@ object {
         font-size: 1.2em;
         margin: 0; }
     .card-container .card.width-third.height-half {
-      height: 200px; }
+      min-height: 200px; }
       .card-container .card.width-third.height-half .card-content h3 {
         font-size: 1.7em;
         margin-bottom: 15px; }
@@ -941,6 +941,9 @@ object {
       flex: 2 1 auto;
       margin-right: 10px;
       margin-left: 10vw; }
+      @media screen and (max-width: 710px) {
+        .newsletter #mc_embed_signup input[type=email] {
+          margin-left: 10px; } }
       .newsletter #mc_embed_signup input[type=email]::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: rgba(255, 255, 255, 0.4);
@@ -1142,6 +1145,7 @@ nav ol {
   list-style-image: none; }
 
 .header-bar {
+  top: 0;
   left: 0;
   z-index: 12;
   width: 100%;
@@ -1461,6 +1465,3 @@ footer {
   transition: none; }
   [type=submit]:hover {
     background-color: white; }
-
-html {
-  background-color: #1b1b1b; }

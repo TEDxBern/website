@@ -295,7 +295,7 @@ $img-brand-float: left;
         }
 
         &.height-full {
-            height: 356px;
+            min-height: 356px;
         }
 
         &.width-third {
@@ -303,7 +303,7 @@ $img-brand-float: left;
         }
 
         &.height-half {
-            height: 176px;
+            min-height: 176px;
 
             .card-content {
                 padding: 20px;
@@ -326,7 +326,7 @@ $img-brand-float: left;
         }
 
         &.width-third.height-half {
-            height: 200px;
+            min-height: 200px;
 
             .card-content h3 {
                 font-size: 1.7em;
@@ -397,48 +397,6 @@ $img-brand-float: left;
         }
     }
 
-    // &.window-height {
-    //     .card {
-    //         &.height-full {
-    //             min-height: 356px;
-    //             height: 70%;
-    //         }
-
-    //         &.height-half {
-    //             min-height: 176px;
-    //             height: 35%;
-
-    //             // .card-content {
-    //             //     padding: 20px;
-    //             // }
-
-    //             // .card-content .btn {
-    //             //     bottom: 20px;
-    //             // }
-
-    //             // .card-content h3 {
-    //             //     font-size: 2em;
-    //             //     margin: 0;
-    //             //     margin-bottom: 10px;
-    //             // }
-
-    //             // .card-content p {
-    //             //     font-size: 1.2em;
-    //             //     margin: 0;
-    //             // }
-    //         }
-
-    //         &.width-third.height-half {
-    //             min-height: 200px;
-    //             height: 30%;
-
-    //             // .card-content h3 {
-    //             //     font-size: 1.7em;
-    //             //     margin-bottom: 15px;
-    //             // }
-    //         }
-    //     }
-    // }
 }
 
 .newsletter {
@@ -474,7 +432,7 @@ $img-brand-float: left;
         flex: 2 1 auto;
         display: flex;
         justify-content: flex-end;
-
+        
         form {
             width: 100%;
         }
@@ -485,6 +443,9 @@ $img-brand-float: left;
         }
 
         input[type=email] {
+            @media screen and (max-width: $phone-landscape + 110px) {
+                margin-left: 10px;
+            }
             position: relative;
             -webkit-appearance: none;
             -moz-appearance:    none;
@@ -496,18 +457,18 @@ $img-brand-float: left;
             flex: 2 1 auto;
             margin-right: 10px;
             margin-left: 10vw;
-
+    
             &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
                 color: transparentize(#fff, .6);
                 opacity: 1; /* Firefox */
                 font-style: italic;
             }
-
+            
             &:-ms-input-placeholder { /* Internet Explorer 10-11 */
                 color: transparentize(#fff, .6);
                 font-style: italic;
             }
-
+            
             &::-ms-input-placeholder { /* Microsoft Edge */
                 color: transparentize(#fff, .6);
                 font-style: italic;
@@ -601,7 +562,7 @@ $img-brand-float: left;
     }
 
     > p {
-        margin-bottom: 50px;
+        margin-bottom: 50px; 
     }
 }
 
@@ -659,7 +620,7 @@ $img-brand-float: left;
             flex: 0 1 calc(50% - 30px);
         }
         flex: 0 1 calc(33% - 40px);
-
+        
 
         img {
             max-height: none;
@@ -777,7 +738,7 @@ $img-brand-float: left;
 				max-width: none;
 				min-width: 100%;
                 min-height: 100%;
-
+                
                 &.landscape {
                     width: auto;
 				    height: 100%;
@@ -818,6 +779,7 @@ nav ol {
 }
 
 .header-bar {
+    top: 0;
     left: 0;
     z-index: 12;
     width: 100%;
@@ -836,13 +798,13 @@ nav ol {
 		// padding-top: $nav-top-header-v-padding;
 		// padding-bottom: $nav-top-header-v-padding;
     }
-
+    
     .brand {
         float: $img-brand-float;
         width: $img-brand-width;
         line-height: 0;
         text-decoration: none;
-
+    
         img {
             width: $img-brand-width;
         }
@@ -1146,7 +1108,7 @@ footer {
             margin: 0 40px 0 0;
 
             &:last-of-type {
-                margin-right: 0;
+                margin-right: 0; 
             }
         }
 
@@ -1169,7 +1131,7 @@ footer {
 
         .footer-menu {
             ul {
-                margin: 0;
+                margin: 0; 
                 padding: 0;
                 float: none;
                 list-style: none;
@@ -1273,8 +1235,4 @@ footer {
     &:hover {
         background-color: white;
     }
-}
-
-html {
-        background-color: rgb(27, 27, 27);
 }
