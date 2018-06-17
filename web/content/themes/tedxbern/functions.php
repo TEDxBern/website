@@ -44,7 +44,7 @@ if ( ! function_exists( 'tedxbern_setup' ) ) :
 
         // Support for custom image size for partners
         add_image_size( 'partner-big', 400, 400, false );
-        add_image_size( 'partner-small', 150, 150, false );
+        add_image_size( 'partner-small', 200, 200, false );
         add_image_size( 'team', 400, 400, true );
 
 		// This theme uses wp_nav_menu() in one location.
