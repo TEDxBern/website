@@ -20,7 +20,8 @@ environments:
         service: cli
     routes:
       - nginx:
-        - preview.tedxbern.com
+        - tedxbern.com
+        - www.tedxbern.com
   develop:
     cronjobs:
       - name: cronjob
