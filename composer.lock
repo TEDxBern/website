@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75e800cc50f079531609232e6eb487f2",
+    "content-hash": "7ee9b72a930ce8bc4132d8cd0d678217",
     "packages": [
         {
             "name": "composer/installers",
@@ -522,6 +522,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/iwp-client/"
+        },
+        {
+            "name": "wpackagist-plugin/opengraph",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/opengraph/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/opengraph.1.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/opengraph/"
         },
         {
             "name": "wpackagist-plugin/polylang",
