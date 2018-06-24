@@ -609,7 +609,8 @@ $img-brand-float: left;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
     &:nth-of-type(3) {
         justify-content: flex-start;

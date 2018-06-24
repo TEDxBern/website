@@ -1022,7 +1022,9 @@ object {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 50px; }
+  margin-bottom: 20px;
+  margin-top: 20px; 
+                  }
   .partner-container:nth-of-type(3) {
     justify-content: flex-start; }
   @media screen and (max-width: 600px) {
