@@ -1023,7 +1023,7 @@ object {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
-  margin-top: 20px; 
+  margin-top: 20px;
                   }
   .partner-container:nth-of-type(3) {
     justify-content: flex-start; }
@@ -1056,7 +1056,7 @@ object {
         .partner-container .main-partner:nth-of-type(2n+0) {
           margin-right: 0; } }
     .partner-container .main-partner img {
-      max-height: none;
+      max-height: 46px;
       width: 100%;
       height: auto; }
   .partner-container .presenting-partner {
