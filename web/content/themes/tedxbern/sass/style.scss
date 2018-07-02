@@ -608,7 +608,7 @@ $img-brand-float: left;
 .partner-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-bottom: 20px;
     margin-top: 20px;
 
@@ -631,7 +631,12 @@ $img-brand-float: left;
             flex: 0 1 calc(33% - 30px);
         }
         position: relative;
-        flex: 0 1 calc(20% - 30px);
+
+        flex: 0 1 calc(25% - 30px);
+        &.friend {
+          flex: 0 1 calc(20% - 30px);
+        }
+
         margin-top: 10px;
         margin-bottom: 10px;
         margin-right: 30px;
@@ -663,7 +668,7 @@ $img-brand-float: left;
 
 
         img {
-            max-height: 46px;
+            // max-height: 46px;
             width: 100%;
             height: auto;
         }
