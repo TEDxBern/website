@@ -295,7 +295,7 @@ $img-brand-float: left;
         }
 
         &.height-full {
-            height: 356px;
+            min-height: 320px;
         }
 
         &.width-third {
@@ -303,7 +303,7 @@ $img-brand-float: left;
         }
 
         &.height-half {
-            height: 176px;
+            min-height: 158px;
 
             .card-content {
                 padding: 20px;
@@ -326,7 +326,7 @@ $img-brand-float: left;
         }
 
         &.width-third.height-half {
-            height: 200px;
+            min-height: 170px;
 
             .card-content h3 {
                 font-size: 1.7em;
@@ -384,7 +384,7 @@ $img-brand-float: left;
             &.width-third.height-half {
 
                 .card-content h3 {
-                    font-size: 2em;
+                    font-size: 1.3em;
                 }
             }
 
@@ -393,6 +393,47 @@ $img-brand-float: left;
         @media screen and (max-width: $phone-landscape) {
             &.width-half, &.width-third {
                 width: calc(100% - 4px);
+            }
+
+            &.width-half.height-full {
+
+                .card-content {
+                    h3 {
+                        font-size: 3em;
+                    }
+
+                    p {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+
+            &.height-half.width-half {
+
+                .card-content {
+                    h3 {
+                        font-size: 1.5em;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-size: 1em;
+                    }
+                }
+            }
+
+            &.width-third.height-half {
+
+                .card-content {
+                    h3 {
+                        font-size: 1.5em;
+                        margin-bottom: 8px;
+                    }
+
+                    p {
+                        font-size: 1em;
+                    }
+                }
             }
         }
     }
@@ -485,6 +526,9 @@ $img-brand-float: left;
         }
 
         input[type=email] {
+            @media screen and (max-width: $phone-landscape + 110px) {
+                margin-left: 0;
+            }
             position: relative;
             -webkit-appearance: none;
             -moz-appearance:    none;
@@ -496,6 +540,7 @@ $img-brand-float: left;
             flex: 2 1 auto;
             margin-right: 10px;
             margin-left: 10vw;
+			color: white;
 
             &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
                 color: transparentize(#fff, .6);
@@ -521,7 +566,10 @@ $img-brand-float: left;
             }
             @media screen and (max-width: $phone-landscape + 110px) {
                 font-size: 0.6em;
-                bottom: -15px;
+                bottom: auto;
+                top: -15px;
+                right: 0;
+                margin: 0;
             }
             position: absolute;
             background: none;
@@ -572,14 +620,17 @@ $img-brand-float: left;
     }
 
     @media screen and (max-width: $phone-landscape + 110px) {
-        padding: 15px;
+        padding: 22px 5px 5px;
 
         .container {
             // display: block;
 
             h2 {
                 font-size: 0.8em;
-                margin-bottom: 2px;
+                position: absolute;
+                margin: 0;
+                left: 5px;
+                top: 2px;
             }
 
             input {
@@ -623,7 +674,7 @@ $img-brand-float: left;
 
     .partner {
         @media screen and (max-width: $phone-landscape) {
-            &:not(.main-partner):nth-of-type(3n+0) {
+            &:not(.main-partner):not(.friends):nth-of-type(3n+0) {
                 margin-right: 0;
             }
             margin-right: 40px;
@@ -632,6 +683,7 @@ $img-brand-float: left;
         position: relative;
 
         flex: 0 1 calc(25% - 30px);
+
         &.friends {
             @media screen and (max-width: $phone-landscape) {
                 &:nth-of-type(4n+0) {
@@ -1147,7 +1199,10 @@ footer {
                 width: 50%;
                 float: left;
                 margin-top: 7px;
+                margin-bottom: 10px;
             }
+            display: flex;
+            justify-content: flex-start;
         }
 
         .social a {
@@ -1156,6 +1211,7 @@ footer {
             }
             // display: inline;
             margin: 0 40px 0 0;
+            flex: 0 1 auto;
 
             &:last-of-type {
                 margin-right: 0;
@@ -1165,7 +1221,7 @@ footer {
         .copyright {
             @media screen and (max-width: $phone-landscape + 110px) {
                 position: absolute;
-                bottom: 10px;
+                bottom: 5px;
                 text-align: center;
                 left: 10px;
                 right: 10px;

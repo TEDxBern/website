@@ -996,7 +996,7 @@ object {
 }
 
 .card-container .card.height-full {
-  height: 356px;
+  min-height: 320px;
 }
 
 .card-container .card.width-third {
@@ -1004,7 +1004,7 @@ object {
 }
 
 .card-container .card.height-half {
-  height: 176px;
+  min-height: 158px;
 }
 
 .card-container .card.height-half .card-content {
@@ -1027,7 +1027,7 @@ object {
 }
 
 .card-container .card.width-third.height-half {
-  height: 200px;
+  min-height: 170px;
 }
 
 .card-container .card.width-third.height-half .card-content h3 {
@@ -1074,13 +1074,33 @@ object {
     width: calc(100% - 4px);
   }
   .card-container .card.width-third.height-half .card-content h3 {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 }
 
 @media screen and (max-width: 600px) {
   .card-container .card.width-half, .card-container .card.width-third {
     width: calc(100% - 4px);
+  }
+  .card-container .card.width-half.height-full .card-content h3 {
+    font-size: 3em;
+  }
+  .card-container .card.width-half.height-full .card-content p {
+    font-size: 1.3em;
+  }
+  .card-container .card.height-half.width-half .card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  .card-container .card.height-half.width-half .card-content p {
+    font-size: 1em;
+  }
+  .card-container .card.width-third.height-half .card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+  }
+  .card-container .card.width-third.height-half .card-content p {
+    font-size: 1em;
   }
 }
 
@@ -1139,6 +1159,13 @@ object {
   flex: 2 1 auto;
   margin-right: 10px;
   margin-left: 10vw;
+  color: white;
+}
+
+@media screen and (max-width: 710px) {
+  .newsletter #mc_embed_signup input[type=email] {
+    margin-left: 0;
+  }
 }
 
 .newsletter #mc_embed_signup input[type=email]::placeholder {
@@ -1180,7 +1207,10 @@ object {
 @media screen and (max-width: 710px) {
   .newsletter #mc_embed_signup div.mce_inline_error {
     font-size: 0.6em;
-    bottom: -15px;
+    bottom: auto;
+    top: -15px;
+    right: 0;
+    margin: 0;
   }
 }
 
@@ -1229,11 +1259,14 @@ object {
 
 @media screen and (max-width: 710px) {
   .newsletter {
-    padding: 15px;
+    padding: 22px 5px 5px;
   }
   .newsletter .container h2 {
     font-size: 0.8em;
-    margin-bottom: 2px;
+    position: absolute;
+    margin: 0;
+    left: 5px;
+    top: 2px;
   }
   .newsletter .container input {
     font-size: 0.8em;
@@ -1282,7 +1315,7 @@ object {
     margin-right: 40px;
     flex: 0 1 calc(33% - 30px);
   }
-  .partner-container .partner:not(.main-partner):nth-of-type(3n+0) {
+  .partner-container .partner:not(.main-partner):not(.friends):nth-of-type(3n+0) {
     margin-right: 0;
   }
 }
@@ -1761,16 +1794,23 @@ footer .container img {
   width: 24px;
 }
 
+footer .container .social {
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media screen and (max-width: 710px) {
   footer .container .social {
     width: 50%;
     float: left;
     margin-top: 7px;
+    margin-bottom: 10px;
   }
 }
 
 footer .container .social a {
   margin: 0 40px 0 0;
+  flex: 0 1 auto;
 }
 
 footer .container .social a:last-of-type {
@@ -1785,7 +1825,7 @@ footer .container .copyright {
 @media screen and (max-width: 710px) {
   footer .container .copyright {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     text-align: center;
     left: 10px;
     right: 10px;
