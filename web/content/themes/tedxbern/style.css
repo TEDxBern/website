@@ -51,7 +51,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 11, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -64,7 +63,6 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 23, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 body {
   margin: 0;
 }
@@ -73,7 +71,6 @@ body {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 32, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -85,7 +82,6 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 45, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -99,7 +95,6 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 56, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -112,7 +107,6 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 68, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 a {
   background-color: transparent;
   text-decoration: none;
@@ -122,7 +116,6 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 78, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -135,7 +128,6 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 88, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -145,7 +137,6 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 98, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 code,
 kbd,
 samp {
@@ -158,7 +149,6 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 109, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -167,7 +157,6 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 118, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -176,12 +165,10 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 126, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 130, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -191,7 +178,6 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 141, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 img {
   border-style: none;
 }
@@ -202,7 +188,6 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 153, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button,
 input,
 optgroup,
@@ -222,7 +207,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 169, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -233,7 +217,6 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 179, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -243,7 +226,6 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 188, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -254,7 +236,6 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 199, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -266,7 +247,6 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 211, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -277,7 +257,6 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 222, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -288,7 +267,6 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *		`fieldset` elements in all browsers.
  */
-/* line 233, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -307,7 +285,6 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 246, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -315,7 +292,6 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 254, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -324,7 +300,6 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 263, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -336,7 +311,6 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 273, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -346,7 +320,6 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 283, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -357,7 +330,6 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 292, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -366,7 +338,6 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 301, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -379,7 +350,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 313, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 details {
   display: block;
 }
@@ -387,7 +357,6 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 321, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -397,7 +366,6 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 332, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 template {
   display: none;
 }
@@ -405,7 +373,6 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 340, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -413,7 +380,6 @@ template {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -427,32 +393,26 @@ textarea {
   line-height: 1.5;
 }
 
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_headings.scss */
 h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 dfn, cite, em, i {
   font-style: italic;
 }
 
-/* line 9, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 blockquote {
   margin: 0 1.5em;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 address {
   margin: 0 0 1.5em;
 }
 
-/* line 17, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -465,26 +425,22 @@ pre {
   padding: 1.6em;
 }
 
-/* line 28, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem;
 }
 
-/* line 33, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-/* line 38, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-/* line 43, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/typography/_copy.scss */
 big {
   font-size: 125%;
 }
@@ -492,12 +448,10 @@ big {
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 *,
 *:before,
 *:after {
@@ -505,13 +459,11 @@ html {
   box-sizing: inherit;
 }
 
-/* line 11, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
 
-/* line 15, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 hr {
   background-color: #ccc;
   border: 0;
@@ -519,39 +471,32 @@ hr {
   margin-bottom: 1.5em;
 }
 
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 ul {
   list-style: disc;
 }
 
-/* line 9, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 ol {
   list-style: decimal;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-/* line 19, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 23, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_lists.scss */
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-/* line 24, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -559,13 +504,11 @@ img {
   /* Adhere to container width. */
 }
 
-/* line 29, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_elements.scss */
 figure {
   margin: 1em 0;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/elements/_tables.scss */
 table {
   margin: 0 0 1.5em;
   width: 100%;
@@ -574,7 +517,6 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -597,7 +539,6 @@ textarea {
   padding: 3px;
 }
 
-/* line 22, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -617,12 +558,10 @@ textarea:focus {
   color: #111;
 }
 
-/* line 27, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/forms/_fields.scss */
 select {
   border: 1px solid #ccc;
 }
 
-/* line 31, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/forms/_fields.scss */
 textarea {
   width: 100%;
 }
@@ -633,27 +572,22 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_links.scss */
 a {
   color: #e62b1e;
 }
 
-/* line 4, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_links.scss */
 a:visited {
   color: #e62b1e;
 }
 
-/* line 7, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
   color: #1b1b1b;
 }
 
-/* line 12, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_links.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 15, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_links.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -661,7 +595,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/* line 92, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_menus.scss */
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -669,7 +602,6 @@ a:hover, a:active {
   overflow: hidden;
 }
 
-/* line 97, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -677,7 +609,6 @@ a:hover, a:active {
   width: 50%;
 }
 
-/* line 102, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/navigation/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -690,7 +621,6 @@ a:hover, a:active {
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-/* line 2, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_accessibility.scss */
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -705,7 +635,6 @@ a:hover, a:active {
   /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
-/* line 14, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_accessibility.scss */
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -729,7 +658,6 @@ a:hover, a:active {
 }
 
 /* Do not show the outline on the skip link target. */
-/* line 36, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_accessibility.scss */
 #content[tabindex="-1"]:focus {
   outline: 0;
 }
@@ -737,21 +665,18 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_alignments.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 7, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_alignments.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_alignments.scss */
 .aligncenter {
   clear: both;
   display: block;
@@ -762,7 +687,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_clearings.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -780,7 +704,6 @@ a:hover, a:active {
   table-layout: fixed;
 }
 
-/* line 16, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_clearings.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -793,13 +716,11 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/secondary/_widgets.scss */
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/secondary/_widgets.scss */
 .widget select {
   max-width: 100%;
 }
@@ -810,29 +731,24 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_posts-and-pages.scss */
 .sticky {
   display: block;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_posts-and-pages.scss */
 .hentry {
   margin: 0 0 1.5em;
 }
 
-/* line 9, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_posts-and-pages.scss */
 .updated:not(.published) {
   display: none;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-/* line 19, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -841,12 +757,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_comments.scss */
 .comment-content a {
   word-wrap: break-word;
 }
 
-/* line 4, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/site/primary/_comments.scss */
 .bypostauthor {
   display: block;
 }
@@ -855,7 +769,6 @@ a:hover, a:active {
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 2, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_infinite-scroll.scss */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -863,7 +776,6 @@ a:hover, a:active {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
-/* line 8, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/modules/_infinite-scroll.scss */
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -871,7 +783,6 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -882,7 +793,6 @@ a:hover, a:active {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 11, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_media.scss */
 embed,
 iframe,
 object {
@@ -890,7 +800,6 @@ object {
 }
 
 /* Make sure logo link wraps around logo image. */
-/* line 18, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_media.scss */
 .custom-logo-link {
   display: inline-block;
 }
@@ -898,25 +807,21 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_captions.scss */
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_captions.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 9, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_captions.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
 
-/* line 14, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_captions.scss */
 .wp-caption-text {
   text-align: center;
 }
@@ -924,12 +829,10 @@ object {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-/* line 1, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery {
   margin-bottom: 1.5em;
 }
 
-/* line 5, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -937,78 +840,64 @@ object {
   width: 100%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
 
-/* line 13, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-/* line 19, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/media/_galleries.scss */
 .gallery-caption {
   display: block;
 }
 
 /* hamburger */
-/* line 173, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .container {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 181, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .site-content {
   max-width: 1000px;
   margin: 0 auto;
   padding: 30px;
 }
 
-/* line 188, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .page-template-page-home .hentry {
   margin: 0;
 }
 
-/* line 192, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .page-template-page-home .site-content {
   padding: 0;
   max-width: none;
 }
 
-/* line 198, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .post-thumbnail {
   float: right;
   width: 50%;
@@ -1018,20 +907,17 @@ object {
   border-left: 1px solid #e62b1e;
 }
 
-/* line 208, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container {
   position: relative;
   padding: 2px;
 }
 
-/* line 212, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container:after {
   clear: both;
   content: "";
   display: block;
 }
 
-/* line 218, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card {
   position: relative;
   background-size: cover;
@@ -1040,7 +926,6 @@ object {
   margin: 2px;
 }
 
-/* line 225, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card a.page-link {
   position: absolute;
   top: 0;
@@ -1049,7 +934,6 @@ object {
   height: 0;
 }
 
-/* line 233, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card .card-content {
   position: absolute;
   top: 0;
@@ -1065,13 +949,11 @@ object {
   transition: 200ms transform 350ms cubic-bezier(0.68, 0.4, 0.5, 1), 150ms opacity 150ms cubic-bezier(0.68, 0.4, 0.5, 1), 200ms visibility 150ms cubic-bezier(0.68, 0.4, 0.5, 1);
 }
 
-/* line 248, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card .card-content .btn {
   position: absolute;
   bottom: 40px;
 }
 
-/* line 253, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card .card-content:before {
   position: absolute;
   top: 0;
@@ -1083,14 +965,12 @@ object {
   z-index: -1;
 }
 
-/* line 264, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card .card-content h3 {
   font-size: 4em;
   line-height: 1em;
   margin: 0;
 }
 
-/* line 270, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card .card-content p {
   font-family: serif;
   font-style: italic;
@@ -1098,7 +978,6 @@ object {
   line-height: 1.2em;
 }
 
-/* line 279, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card:hover a.page-link {
   width: auto;
   height: auto;
@@ -1106,73 +985,60 @@ object {
   right: 0;
 }
 
-/* line 286, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card:hover .card-content {
   opacity: 1;
   transform: scale(1) translateZ(0);
   transition: 350ms 100ms transform cubic-bezier(0.68, 0.4, 0.5, 1), 250ms 100ms opacity cubic-bezier(0.68, 0.4, 0.5, 1), 300ms 100ms visibility cubic-bezier(0.68, 0.4, 0.5, 1);
 }
 
-/* line 293, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.width-half {
   width: calc(50% - 4px);
 }
 
-/* line 297, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-full {
   height: 356px;
 }
 
-/* line 301, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.width-third {
   width: calc(33.33% - 4px);
 }
 
-/* line 305, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-half {
   height: 176px;
 }
 
-/* line 308, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-half .card-content {
   padding: 20px;
 }
 
-/* line 312, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-half .card-content .btn {
   bottom: 20px;
 }
 
-/* line 316, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-half .card-content h3 {
   font-size: 2em;
   margin: 0;
   margin-bottom: 10px;
 }
 
-/* line 322, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.height-half .card-content p {
   font-size: 1.2em;
   margin: 0;
 }
 
-/* line 328, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.width-third.height-half {
   height: 200px;
 }
 
-/* line 331, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .card-container .card.width-third.height-half .card-content h3 {
   font-size: 1.7em;
   margin-bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 338, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card a.page-link {
     display: none;
   }
-  /* line 342, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card:after {
     position: absolute;
     bottom: 20px;
@@ -1185,49 +1051,39 @@ object {
     opacity: 1;
     transition: .2s .2s opacity linear;
   }
-  /* line 355, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card:hover:after {
     opacity: 0;
     transition: .2s .2s opacity linear;
   }
-  /* line 360, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-half.height-full {
     width: calc(100% - 4px);
   }
-  /* line 363, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-half.height-full .card-content {
     padding: 20px;
   }
-  /* line 368, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.height-half.width-half {
     height: 200px;
   }
-  /* line 371, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.height-half.width-half .card-content h3 {
     margin-bottom: 15px;
   }
-  /* line 376, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-third {
     width: calc(50% - 4px);
   }
-  /* line 379, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-third:nth-of-type(3n+0) {
     width: calc(100% - 4px);
   }
-  /* line 386, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-third.height-half .card-content h3 {
     font-size: 2em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* line 394, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .card-container .card.width-half, .card-container .card.width-third {
     width: calc(100% - 4px);
   }
 }
 
-/* line 444, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter {
   position: relative;
   background-color: #e62b1e;
@@ -1236,7 +1092,6 @@ object {
   z-index: 1;
 }
 
-/* line 452, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -1245,12 +1100,10 @@ object {
   align-items: center;
 }
 
-/* line 461, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter > * {
   flex: 0 1 auto;
 }
 
-/* line 465, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter h2 {
   display: inline-block;
   color: white;
@@ -1258,7 +1111,6 @@ object {
   margin: 0 15vw 5px 0;
 }
 
-/* line 472, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup {
   position: relative;
   flex: 2 1 auto;
@@ -1266,18 +1118,15 @@ object {
   justify-content: flex-end;
 }
 
-/* line 478, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup form {
   width: 100%;
 }
 
-/* line 482, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup .mc-field-group {
   display: flex;
   justify-content: space-between;
 }
 
-/* line 487, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup input[type=email] {
   position: relative;
   -webkit-appearance: none;
@@ -1292,7 +1141,6 @@ object {
   margin-left: 10vw;
 }
 
-/* line 500, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup input[type=email]::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: rgba(255, 255, 255, 0.4);
@@ -1301,21 +1149,18 @@ object {
   font-style: italic;
 }
 
-/* line 506, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup input[type=email]:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: rgba(255, 255, 255, 0.4);
   font-style: italic;
 }
 
-/* line 511, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup input[type=email]::-ms-input-placeholder {
   /* Microsoft Edge */
   color: rgba(255, 255, 255, 0.4);
   font-style: italic;
 }
 
-/* line 517, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mc_embed_signup div.mce_inline_error {
   position: absolute;
   background: none;
@@ -1326,7 +1171,6 @@ object {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 517, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter #mc_embed_signup div.mce_inline_error {
     font-size: 0.8em;
     bottom: -19px;
@@ -1334,14 +1178,12 @@ object {
 }
 
 @media screen and (max-width: 710px) {
-  /* line 517, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter #mc_embed_signup div.mce_inline_error {
     font-size: 0.6em;
     bottom: -15px;
   }
 }
 
-/* line 535, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter #mce-success-response,
 .newsletter #mce-error-response {
   position: absolute;
@@ -1356,21 +1198,18 @@ object {
 }
 
 @media screen and (max-width: 710px) {
-  /* line 535, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter #mce-success-response,
   .newsletter #mce-error-response {
     font-size: 0.7em;
   }
 }
 
-/* line 551, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .newsletter [type=submit] {
   padding: 11px;
   flex: 0 1 auto;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 444, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter {
     position: fixed;
     bottom: 0;
@@ -1379,11 +1218,9 @@ object {
     padding: 15px 20px;
     margin: 0;
   }
-  /* line 564, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter .container {
     justify-content: flex-end;
   }
-  /* line 567, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter .container h2 {
     margin: 0 0 5px 0;
     font-size: 2em;
@@ -1391,36 +1228,29 @@ object {
 }
 
 @media screen and (max-width: 710px) {
-  /* line 444, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter {
     padding: 15px;
   }
-  /* line 580, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter .container h2 {
     font-size: 0.8em;
     margin-bottom: 2px;
   }
-  /* line 585, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter .container input {
     font-size: 0.8em;
   }
-  /* line 590, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .newsletter .container button {
     font-size: 0.72em;
   }
 }
 
-/* line 599, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-content h2 {
   margin-bottom: 0;
 }
 
-/* line 603, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-content > p {
   margin-bottom: 50px;
 }
 
-/* line 608, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container {
   display: flex;
   flex-wrap: wrap;
@@ -1429,19 +1259,16 @@ object {
   margin-top: 20px;
 }
 
-/* line 615, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container:nth-of-type(3) {
   justify-content: flex-start;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 619, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container:nth-of-type(2) {
     justify-content: flex-start;
   }
 }
 
-/* line 625, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .partner {
   position: relative;
   flex: 0 1 calc(25% - 30px);
@@ -1452,53 +1279,54 @@ object {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 625, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .partner {
     margin-right: 40px;
     flex: 0 1 calc(33% - 30px);
   }
-  /* line 627, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .partner:not(.main-partner):nth-of-type(3n+0) {
     margin-right: 0;
   }
 }
 
-/* line 636, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
-.partner-container .partner.friend {
+.partner-container .partner.friends {
   flex: 0 1 calc(20% - 30px);
 }
 
-/* line 645, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
+@media screen and (max-width: 600px) {
+  .partner-container .partner.friends {
+    flex: 0 1 calc(20%);
+    margin-right: 15px;
+  }
+  .partner-container .partner.friends:nth-of-type(4n+0) {
+    margin-right: 0px;
+  }
+}
+
 .partner-container .partner img {
   height: auto;
   width: 100%;
   max-width: none;
 }
 
-/* line 659, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .main-partner {
   flex: 0 1 calc(33% - 40px);
 }
 
 @media screen and (max-width: 600px) {
-  /* line 659, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .main-partner {
     margin-right: 50px;
     flex: 0 1 calc(50% - 30px);
   }
-  /* line 661, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .main-partner:nth-of-type(2n+0) {
     margin-right: 0;
   }
 }
 
-/* line 670, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .main-partner img {
   width: 100%;
   height: auto;
 }
 
-/* line 677, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .presenting-partner {
   flex: 0 1 50%;
   align-self: auto;
@@ -1506,7 +1334,6 @@ object {
   margin-right: 0;
 }
 
-/* line 683, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .presenting-partner:first-of-type {
   padding-right: 30px;
   padding-left: 0;
@@ -1514,12 +1341,10 @@ object {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 677, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .presenting-partner {
     flex: 0 1 100%;
     padding: 0;
   }
-  /* line 693, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .partner-container .presenting-partner:first-of-type {
     padding: 0 0 10px 0;
     border-right: 0;
@@ -1527,7 +1352,6 @@ object {
   }
 }
 
-/* line 700, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .partner-container .presenting-partner img {
   height: auto;
   max-height: 160px;
@@ -1535,7 +1359,6 @@ object {
   max-width: 100%;
 }
 
-/* line 709, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container {
   display: flex;
   flex-wrap: wrap;
@@ -1543,7 +1366,6 @@ object {
   margin-bottom: 50px;
 }
 
-/* line 715, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member {
   position: relative;
   flex: 0 1 calc(33% - 20px);
@@ -1553,43 +1375,36 @@ object {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 715, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .member-container .member {
     flex: 0 1 calc(50% - 20px);
   }
 }
 
 @media screen and (max-width: 500px) {
-  /* line 715, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .member-container .member {
     flex: 0 1 100%;
   }
 }
 
-/* line 747, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .member-content {
   z-index: 1;
 }
 
-/* line 755, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .member-content h3 {
   margin: 0;
   position: relative;
 }
 
-/* line 760, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .member-content span {
   color: #b4b4b4;
   font-style: italic;
   font-family: serif;
 }
 
-/* line 766, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .member-content p {
   font-size: .9em;
 }
 
-/* line 771, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .image-container {
   position: relative;
   display: block;
@@ -1598,7 +1413,6 @@ object {
   overflow: hidden;
 }
 
-/* line 778, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .image-container img {
   transform: translate(-50%, -50%);
   position: absolute;
@@ -1609,19 +1423,16 @@ object {
   min-height: 100%;
 }
 
-/* line 787, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .image-container img.landscape {
   width: auto;
   height: 100%;
 }
 
-/* line 792, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member .image-container img.portrait {
   width: 100%;
   height: auto;
 }
 
-/* line 799, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member a {
   position: absolute;
   top: 0;
@@ -1629,19 +1440,16 @@ object {
   color: #1b1b1b;
 }
 
-/* line 807, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .member-container .member a:hover .envelope {
   fill: #1b1b1b;
 }
 
-/* line 820, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 nav ul,
 nav ol {
   list-style: none;
   list-style-image: none;
 }
 
-/* line 826, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .header-bar {
   left: 0;
   z-index: 12;
@@ -1649,7 +1457,6 @@ nav ol {
   background-color: #1b1b1b;
 }
 
-/* line 834, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .header-bar {
   position: absolute;
   padding-top: 15px;
@@ -1658,7 +1465,6 @@ nav ol {
   padding-right: 15px;
 }
 
-/* line 846, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .header-bar .brand {
   float: left;
   width: 200px;
@@ -1666,30 +1472,25 @@ nav ol {
   text-decoration: none;
 }
 
-/* line 852, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .header-bar .brand img {
   width: 200px;
 }
 
-/* line 859, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .site {
   padding-top: calc(1.8em + ((10px + 12px + 15px) - 20px));
 }
 
-/* line 865, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul {
   float: right;
   padding: 0;
   margin: 0;
 }
 
-/* line 871, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer li {
   display: inline-block;
   padding: 0 20px;
 }
 
-/* line 875, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer li a {
   transition: 0.3s all ease-in-out;
   display: block;
@@ -1703,19 +1504,16 @@ nav ol {
   border-bottom: 2px solid transparent;
 }
 
-/* line 888, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer li a:hover {
   color: #8e1810;
 }
 
-/* line 892, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer li.current_page_item > a,
 .main-navigation .nav-drawer li.selected a {
   border-bottom: 2px solid #e62b1e;
 }
 
 @media screen and (max-width: 769px) {
-  /* line 864, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer {
     transition: 0.3s all ease-in-out;
     transform: translateX(280px);
@@ -1728,20 +1526,17 @@ nav ol {
     color: set-custom-contrast-color(#020202, white, #1b1b1b);
     background: #020202;
   }
-  /* line 909, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul {
     float: none;
     width: 100%;
     padding: 0;
     margin-top: 71px;
   }
-  /* line 915, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul li,
   .main-navigation .nav-drawer ul li.selected {
     display: block;
     padding: 0;
   }
-  /* line 920, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul li a,
   .main-navigation .nav-drawer ul li.selected a {
     display: block;
@@ -1752,38 +1547,31 @@ nav ol {
     border-top: 1px solid #161616;
     border-bottom: 0;
   }
-  /* line 930, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul li a:hover,
   .main-navigation .nav-drawer ul li.selected a:hover {
     color: set-custom-contrast-color(#020202, white, #1b1b1b);
   }
-  /* line 935, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul li.current_page_item {
     background-color: #0e0e0e;
   }
-  /* line 938, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul li.current_page_item a {
     color: set-custom-contrast-color(#020202, white, #1b1b1b);
     border-bottom: 0;
   }
-  /* line 945, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer.in {
     transform: translateX(0);
   }
 }
 
 @media screen and (max-width: 769px) {
-  /* line 951, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .shift {
     transition: 0.3s all ease-in-out;
   }
-  /* line 954, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .shift.out {
     transform: translate3d(-280px, 0, 2px);
   }
 }
 
-/* line 960, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger {
   transition: 0.5s all ease-in-out;
   position: fixed;
@@ -1794,7 +1582,6 @@ nav ol {
   cursor: pointer;
 }
 
-/* line 969, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger .bar {
   transition: 0.5s all ease-in-out;
   display: block;
@@ -1804,73 +1591,61 @@ nav ol {
   background-color: #e62b1e;
 }
 
-/* line 977, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger .bar:last-child {
   margin-bottom: 0;
 }
 
-/* line 982, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger.in {
   right: 6px;
 }
 
-/* line 985, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger.in .bar {
   background-color: white;
 }
 
-/* line 989, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger.in .bar:nth-child(1) {
   transform-origin: left top;
   transform: rotateZ(45deg) translateY(-2px);
 }
 
-/* line 994, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger.in .bar:nth-child(2) {
   transform-origin: center right;
   transform: rotateZ(0deg) translateX(10px);
   width: 2px;
 }
 
-/* line 1000, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .hamburger.in .bar:nth-child(3) {
   transform-origin: left bottom;
   transform: rotateZ(-45deg) translateY(2px);
 }
 
 @media screen and (min-width: 769px) {
-  /* line 960, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .hamburger {
     display: none;
   }
 }
 
 @media screen and (max-width: 769px) {
-  /* line 1010, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown {
     position: absolute;
     max-width: 80px;
     margin-top: 9px;
     margin-left: 2px;
   }
-  /* line 1017, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown li::after {
     margin-top: 10px;
   }
-  /* line 1021, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown li a {
     font-size: 1.3em;
     border-top: 0;
   }
 }
 
-/* line 1027, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li {
   position: relative;
   padding-right: 25px;
 }
 
-/* line 1032, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li::after {
   transform: rotate(45deg);
   position: absolute;
@@ -1885,14 +1660,12 @@ nav ol {
 }
 
 @media screen and (max-width: 769px) {
-  /* line 1032, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown > li::after {
     border-color: #e62b1e;
     top: 10px;
   }
 }
 
-/* line 1050, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li > span {
   position: absolute;
   top: 0;
@@ -1902,7 +1675,6 @@ nav ol {
 }
 
 @media screen and (max-width: 769px) {
-  /* line 1050, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown > li > span {
     top: 5px;
     right: auto;
@@ -1910,14 +1682,12 @@ nav ol {
   }
 }
 
-/* line 1063, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li > span ul {
   margin-top: 0;
   background-color: #e62b1e;
   border-radius: 0;
 }
 
-/* line 1069, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li > span ul::before {
   transform: rotate(45deg);
   position: absolute;
@@ -1930,52 +1700,43 @@ nav ol {
 }
 
 @media screen and (max-width: 769px) {
-  /* line 1069, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .main-navigation .nav-drawer ul.multilang-dropdown > li > span ul::before {
     right: auto;
     left: 42px;
   }
 }
 
-/* line 1084, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li > span li {
   display: block;
 }
 
-/* line 1088, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .main-navigation .nav-drawer ul.multilang-dropdown > li > span li a {
   font-size: 1.2em;
   color: white;
 }
 
-/* line 1097, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .multilang-dropdown:hover span.dropdown-container {
   display: block;
 }
 
-/* line 1102, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .multilang-dropdown > li > a {
   pointer-events: none;
 }
 
-/* line 1106, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .multilang-dropdown span.dropdown-container {
   display: none;
 }
 
-/* line 1110, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 .multilang-dropdown span.dropdown-container.in {
   display: block;
 }
 
-/* line 1115, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer {
   position: relative;
   background-color: #1b1b1b;
   padding: 20px;
 }
 
-/* line 1120, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container {
   max-width: 1070px;
   display: flex;
@@ -1984,7 +1745,6 @@ footer .container {
 }
 
 @media screen and (max-width: 710px) {
-  /* line 1120, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   footer .container {
     display: block;
     padding-bottom: 20px;
@@ -1992,20 +1752,17 @@ footer .container {
 }
 
 @media screen and (max-width: 352px) {
-  /* line 1120, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   footer .container {
     padding-bottom: 25px;
   }
 }
 
-/* line 1134, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container img {
   height: 24px;
   width: 24px;
 }
 
 @media screen and (max-width: 710px) {
-  /* line 1139, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   footer .container .social {
     width: 50%;
     float: left;
@@ -2013,24 +1770,20 @@ footer .container img {
   }
 }
 
-/* line 1147, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .social a {
   margin: 0 40px 0 0;
 }
 
-/* line 1154, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .social a:last-of-type {
   margin-right: 0;
 }
 
-/* line 1159, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .copyright {
   color: white;
   text-align: center;
 }
 
 @media screen and (max-width: 710px) {
-  /* line 1159, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   footer .container .copyright {
     position: absolute;
     bottom: 10px;
@@ -2040,13 +1793,11 @@ footer .container .copyright {
   }
 }
 
-/* line 1170, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .copyright p {
   margin: 0 20px;
   font-size: .7em;
 }
 
-/* line 1177, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .footer-menu ul {
   margin: 0;
   padding: 0;
@@ -2057,59 +1808,49 @@ footer .container .footer-menu ul {
   text-align: right;
 }
 
-/* line 1187, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .footer-menu li {
   margin: 0;
   padding: 0;
   font-size: 0.8em;
 }
 
-/* line 1192, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .footer-menu li a {
   color: white;
 }
 
-/* line 1196, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .footer-menu li a:hover {
   color: #e62b1e;
 }
 
-/* line 1202, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .social svg path {
   fill: white;
 }
 
-/* line 1206, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .social a:hover svg path {
   fill: #e62b1e;
 }
 
-/* line 1210, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .copyright, footer .container .footer-menu, footer .container .social {
   flex: 0 2 auto;
   align-self: center;
 }
 
-/* line 1215, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 footer .container .footer-menu {
   flex: 0 1 auto;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 1221, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .page-template-page-home footer {
     margin-bottom: 87px;
   }
 }
 
 @media screen and (max-width: 710px) {
-  /* line 1221, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
   .page-template-page-home footer {
     margin-bottom: 71px;
   }
 }
 
-/* line 1231, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit], .btn {
   position: relative;
   -webkit-appearance: none;
@@ -2126,12 +1867,10 @@ footer .container .footer-menu {
   cursor: pointer;
 }
 
-/* line 1246, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit]:visited, [type=submit]:active, .btn:visited, .btn:active {
   color: white;
 }
 
-/* line 1250, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit]:before, .btn:before {
   position: absolute;
   content: '';
@@ -2146,31 +1885,24 @@ footer .container .footer-menu {
   transition: 200ms transform 350ms cubic-bezier(0.68, 0.4, 0.5, 1), 150ms opacity 150ms cubic-bezier(0.68, 0.4, 0.5, 1), 200ms visibility 150ms cubic-bezier(0.68, 0.4, 0.5, 1);
 }
 
-/* line 1264, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit]:hover, .btn:hover {
   color: #e62b1e;
 }
 
-/* line 1268, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit]:hover:before, .btn:hover:before {
   transform: scale(1);
   opacity: 1;
   transition: 350ms 100ms transform cubic-bezier(0.68, 0.4, 0.5, 1), 250ms 100ms opacity cubic-bezier(0.68, 0.4, 0.5, 1), 300ms 100ms visibility cubic-bezier(0.68, 0.4, 0.5, 1);
 }
 
-/* line 1276, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit] {
   transition: none;
 }
 
-/* line 1279, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 [type=submit]:hover {
   background-color: white;
 }
 
-/* line 1284, /Users/Jesuistouriste/Desktop/code/tedx/website/web/content/themes/tedxbern/sass/style.scss */
 html {
   background-color: #1b1b1b;
 }
-
-/*# sourceMappingURL=../style.map */

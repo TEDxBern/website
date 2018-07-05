@@ -633,7 +633,14 @@ $img-brand-float: left;
         position: relative;
 
         flex: 0 1 calc(25% - 30px);
-        &.friend {
+        &.friends {
+            @media screen and (max-width: $phone-landscape) {
+                &:nth-of-type(4n+0) {
+                    margin-right: 0px;
+                }
+                flex: 0 1 calc(20%);
+                margin-right: 15px;
+            }
           flex: 0 1 calc(20% - 30px);
         }
 
