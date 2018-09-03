@@ -50,7 +50,8 @@
     "wpackagist-plugin/regenerate-thumbnails": "^3.0",
     "wpackagist-plugin/resmushit-image-optimizer": "^0.1.15",
     "wpackagist-plugin/backwpup": "^3.4",
-    "wpackagist-plugin/opengraph": "^1.8"
+    "wpackagist-plugin/opengraph": "^1.8",
+    "wpackagist-plugin/cloudflare": "^3.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
