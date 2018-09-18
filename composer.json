@@ -45,7 +45,6 @@
     "wpackagist-plugin/polylang": "^2.3",
     "wpackagist-plugin/wp-nested-pages": "^3.0",
     "wpackagist-plugin/advanced-custom-fields": "^5.6",
-    "wpackagist-plugin/gutenberg": "^3.0",
     "wpackagist-plugin/iwp-client": "^1.8",
     "wpackagist-plugin/regenerate-thumbnails": "^3.0",
     "wpackagist-plugin/resmushit-image-optimizer": "^0.1.15",
