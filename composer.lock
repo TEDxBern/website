@@ -405,15 +405,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.7.6",
+            "version": "5.7.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.7.6"
+                "reference": "tags/5.7.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -425,15 +425,15 @@
         },
         {
             "name": "wpackagist-plugin/autoptimize",
-            "version": "2.3.4",
+            "version": "2.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/autoptimize/",
-                "reference": "tags/2.3.4"
+                "reference": "tags/2.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -445,15 +445,15 @@
         },
         {
             "name": "wpackagist-plugin/backwpup",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/backwpup/",
-                "reference": "tags/3.6.0"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/backwpup.3.6.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/backwpup.3.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -545,15 +545,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.3.10",
+            "version": "2.3.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.3.10"
+                "reference": "tags/2.3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.3.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/polylang.2.3.11.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -647,16 +647,16 @@
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "628a481780561150481a9ec74709092b9759b3ec"
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/628a481780561150481a9ec74709092b9759b3ec",
-                "reference": "628a481780561150481a9ec74709092b9759b3ec",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6ad28354c04b364c3c71a34e4a18b629cc3b231e",
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +694,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-07-26T23:47:18+00:00"
+            "time": "2018-09-23T23:08:17+00:00"
         }
     ],
     "aliases": [],
