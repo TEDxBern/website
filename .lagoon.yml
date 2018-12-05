@@ -22,6 +22,8 @@ environments:
       - nginx:
         - tedxbern.com
         - www.tedxbern.com
+        - tedxbern.ch
+        - www.tedxbern.ch
   develop:
     cronjobs:
       - name: cronjob
